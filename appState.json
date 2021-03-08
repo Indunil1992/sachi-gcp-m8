@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "27f7a0cb-b423-4bb1-b81b-90c96318db90": {
+        "id": "27f7a0cb-b423-4bb1-b81b-90c96318db90",
+        "parent": null,
+        "name": "sachi-gcp-m8.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sachi-gcp-m8.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "sachiGcpM8"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1615209227952
+      },
+      "7f0e4ac3-ba90-4d85-b08b-017b2f06cb92": {
+        "id": "7f0e4ac3-ba90-4d85-b08b-017b2f06cb92",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "db9809c1-2817-477a-84ce-7221003a0195": {
+        "id": "db9809c1-2817-477a-84ce-7221003a0195",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "27f7a0cb-b423-4bb1-b81b-90c96318db90"
+    ],
+    "currentFileId": "27f7a0cb-b423-4bb1-b81b-90c96318db90",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.6.1",
+    "projectName": "sachi-gcp-m8",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1615209726812
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sachi-gcp-m8",
+      "url": "https://github.com/Indunil1992/sachi-gcp-m8"
+    }
+  }
+}
